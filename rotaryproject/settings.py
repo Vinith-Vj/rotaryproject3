@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-ROOT_URLCONF = 'rotaryproject.urls'
+ROOT_URLCONF = 'rotaryapp.urls'
 
 TEMPLATES = [
     {
