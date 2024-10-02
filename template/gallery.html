@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+      Gallery | Rotary Club
+{% endblock %}
+{% block main %}
+
+<section class="hero-wrap hero-wrap-2" style="background-image: url('static/images/1783.jpg'); height: 300px" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+        </div>
+      </div>
+    </section>
+	<br>
+<div class="container bg-light">
+    <h3 class="text-center p-3 mb-4" style="font-size: 32px;">Events</h3>
+    <div class="row">
+        <!-- First Row -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="{% static 'images/old/1692602049-3541.avif' %}" class="card-img-top" alt="Event 1" style="height: 250px; width: 350px;" >
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="{% static 'images/old/shutterstock_418767232.jpg' %}" class="card-img-top" alt="Event 2" style="height: 250px; width: 350px;" >
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="{% static 'images/old/women-decorating-rangoli-with-flowers-on-the-eve-221528.jpg' %}" class="card-img-top" alt="Event 3" style="height: 250px; width: 350px;" >
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="{% static 'images/old/0b6d967852c0b1ed0de58aa6de65cbb51692802206476556_original.avif' %}" class="card-img-top" alt="Event 4" style="height: 250px; width: 350px;" >
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="{% static 'images/old/Onam_Thriuvathira_Dance-via-Wikimedia-Commons.avif' %}" class="card-img-top" alt="Event 5" style="height: 250px; width: 350px;" >
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="{% static 'images/old/pulikkali-dance-onam-4-1693648537.jpg' %}" class="card-img-top" alt="Event 6" style="height: 250px; width: 350px;" >
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
+<section class="ftco-gallery">
+	<div class="container-wrap">
+		<div class="row no-gutters">
+				<div class="col-md-2 ftco-animate">
+					<a href="{% static 'images/old/RSG_9103-1024x681.jpg' %}" class="gallery image-popup img d-flex align-items-center" style="background-image: url('static/images/old/RSG_9103-1024x681.jpg');">
+						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+						<span class="icon-instagram"></span>
+					</div>
+					</a>
+				</div>
+				<div class="col-md-2 ftco-animate">
+					<a href="{% static 'images/old/60deafbd8a373a7f8658b6fb_f3bad4ee-5965-457d-a047-f709820002ab.jpg' %}" class="gallery image-popup img d-flex align-items-center" style="background-image: url('static/images/old/60deafbd8a373a7f8658b6fb_f3bad4ee-5965-457d-a047-f709820002ab.jpg');">
+						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+						<span class="icon-instagram"></span>
+					</div>
+					</a>
+				</div>
+				<div class="col-md-2 ftco-animate">
+					<a href="{% static 'images/old/c1.jpg' %}" class="gallery image-popup img d-flex align-items-center" style="background-image: url('static/images/old/c1.jpg')">
+						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+						<span class="icon-instagram"></span>
+					</div>
+					</a>
+				</div>
+				<div class="col-md-2 ftco-animate">
+					<a href="{% static 'images/old/gurukulam2.jpg' %}" class="gallery image-popup img d-flex align-items-center" style="background-image: url('static/images/old/gurukulam2.jpg');">
+						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+						<span class="icon-instagram"></span>
+					</div>
+					</a>
+				</div>
+				<div class="col-md-2 ftco-animate">
+					<a href="{% static 'images/old/volunteer-abroad-in-india-ivhq-kerala-medical.avif' %}" class="gallery image-popup img d-flex align-items-center" style="background-image: url('static/images/old/volunteer-abroad-in-india-ivhq-kerala-medical.avif');">
+						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+						<span class="icon-instagram"></span>
+					</div>
+					</a>
+				</div>
+				<div class="col-md-2 ftco-animate">
+					<a href="{% static 'images/old/1520185985335.jfif' %}" class="gallery image-popup img d-flex align-items-center" style="background-image: url('static/images/old/1520185985335.jfif');">
+						<div class="icon mb-4 d-flex align-items-center justify-content-center">
+						<span class="icon-instagram"></span>
+					</div>
+					</a>
+				</div>
+	</div>
+	</div>
+</section>
+{% endblock %}

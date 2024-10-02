@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Project | Rotary Club
+{% endblock %}
+{% block main %}
+<section class="hero-wrap hero-wrap-2" style="background-image: url('static/images/2149012208.jpg'); height: 300px" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+        </div>
+    </div>
+</section>
+
+<div class="container-fluid">
+    <h3 class="text-center p-4" style="font-size: 40px;">Our Projects</h3>
+    <p class="breadcrumbs" style="text-align: center">
+        <span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span>
+        <span>Projects <i class="ion-ios-arrow-forward"></i></span>
+    </p>
+
+    <div class="container" id="pro-id">
+        <!-- Row for the accordions -->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- First accordion -->
+            <div class="col">
+                <div id="accordion1" class="single-project-cont h-100">
+                    <div class="card single-project h-100">
+                        <img class="card-img-top" src="{% static 'images/p-1.jpg' %}" alt="Project Image">
+                        <div class="card-header" id="headingOne1">
+                            <h6 class="card-title" id="p-heading">
+                                Rotary Club of Tangasseri and NS Cooperative Hospital Conduct Life-Changing Cleft Palate Surgeries for Tribal Children.
+                            </h6>
+                            <h5 class="mt-4 d-flex justify-content-center">
+                                <button class="btn btn-link collapsed btn-primary" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1" style="text-decoration:none">
+                                    Read..
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne1" class="collapse" aria-labelledby="headingOne1" data-parent="#accordion1">
+                            <div class="card-body" style="text-align:justify;">
+                                The Rotary Club of Tangasseri and the NS Cooperative Hospital joined hands to conduct a major Cleft Palate surgery for two children, Sumesh aged 15 years and Arshida mol aged 9 years of the Achankovil tribal settlement who were identified by Dr Arun Mohan (Rotary Club of Tangasseri) at the Achankovil tribal settlement Medical Camp conducted by the Indian Medical Association, Kollam branch.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second accordion -->
+            <div class="col">
+                <div id="accordion2" class="single-project-cont h-100">
+                    <div class="card single-project h-100">
+                        <img class="card-img-top" src="{% static 'images/p-2.jpg' %}" alt="Project Image">
+                        <div class="card-header" id="headingOne2">
+                            <h6 class="card-title" id="p-heading">
+                                Rotary Club of Tangasseri Inaugurates $42,000 Global Grant Project "Save Kidney Save Life" with Donation of Dialysis Machines to Matha Hospital
+                            </h6>
+                            <h5 class="mt-4 d-flex justify-content-center">
+                                <button class="btn btn-link collapsed btn-primary" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2" style="text-decoration:none">
+                                    Read..
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2" data-parent="#accordion2">
+                            <div class="card-body" style="text-align:justify;">
+                                Rotary Club of Tangasseri when its Global Grant Project "Save Kidney Save Life" worth 42,000 U.S $ was inaugurated by the District Governor Rtn Dr G.Sumithran The club donated four dialysis machines and related equipment to the Matha hospital and in return the club receives five dialysis every day totally free of cost for the patients recommended by the club for a period of five years.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second row -->
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+            <!-- Third accordion -->
+            <div class="col">
+                <div id="accordion3" class="single-project-cont h-100">
+                    <div class="card single-project h-100">
+                        <img class="card-img-top" src="https://www.sevamandirfriends.org/wp-content/uploads/2021/03/FSM_Newsletter-8-1536x1024.jpg" alt="Project Image">
+                        <div class="card-header" id="headingOne3">
+                            <h6 class="card-title" id="p-heading">
+                                Empowering Students in Rural Areas: A Vision for Educational Equality
+                            </h6>
+                            <h5 class="mt-4 d-flex justify-content-center">
+                                <button class="btn btn-link collapsed btn-primary" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3" style="text-decoration:none">
+                                    Read..
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne3" class="collapse" aria-labelledby="headingOne3" data-parent="#accordion3">
+                            <div class="card-body" style="text-align:justify;">
+                                The Students Education Charity is dedicated to bridging the educational gap in rural areas by providing underprivileged students with the resources, support, and opportunities they need to thrive. Our mission is to empower young minds by offering scholarships, essential school supplies, digital literacy programs, and access to quality education that would otherwise be beyond their reach. We believe that every child deserves the chance to learn, grow, and build a brighter future, regardless of their background or location.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fourth accordion -->
+            <div class="col">
+                <div id="accordion4" class="single-project-cont h-100">
+                    <div class="card single-project h-100">
+                        <img class="card-img-top" src="https://images.csmonitor.com/csm/2018/08/1067882_1_0822-India-Flooding_standard.jpg?alias=standard_900x600" style="height: 360px;" alt="Project Image">
+                        <div class="card-header" id="headingOne4">
+                            <h6 class="card-title" id="p-heading">
+                                Charity Efforts for Flood Relief Camps in Kerala
+                            </h6>
+                            <h5 class="mt-4 d-flex justify-content-center">
+                                <button class="btn btn-link collapsed btn-primary" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4" style="text-decoration:none">
+                                    Read..
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne4" class="collapse" aria-labelledby="headingOne4" data-parent="#accordion4">
+                            <div class="card-body" style="text-align:justify;">
+                                In the wake of devastating floods that struck Kerala, the spirit of charity and community solidarity shone brightly as numerous organizations, individuals, and volunteers stepped forward to provide essential aid to the affected. Flood relief camps were quickly established, offering shelter, food, medical care, and emotional support to thousands who were displaced by the rising waters.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+{% endblock %}
